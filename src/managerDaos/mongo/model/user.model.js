@@ -56,6 +56,9 @@ userSchema.pre("findOne", function () {
 
 const UserModel = model(collection, userSchema); // creo el objeto de modelo
 
+let prueba = new UserModel();
+
 module.exports = {
     UserModel,
+    prueba,
 };

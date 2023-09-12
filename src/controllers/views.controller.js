@@ -33,7 +33,7 @@ class viewsController {
             req.logger.fatal({ message: error });
             res.status(500).send({
                 status: "ERROR",
-                error: "Ha ocurrido un error al cargar la vista.",
+                error: "Ha ocurrido un error al cargar la vistasss.",
             });
         }
     };

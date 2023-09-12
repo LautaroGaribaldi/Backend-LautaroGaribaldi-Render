@@ -1,8 +1,8 @@
-const { UserModel } = require("./model/user.model");
+const { UserModel, prueba } = require("./model/user.model");
 
 class UserDaoMongo {
     constructor() {
-        this.userModel = UserModel;
+        this.userModel = prueba;
     }
     getUsers = async () => {
         try {
