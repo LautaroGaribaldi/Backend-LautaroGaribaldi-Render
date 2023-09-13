@@ -35,7 +35,13 @@ class UserController {
 
     sendSms = async (req, res) => {
         try {
-        } catch (error) {}
+            await sendSms();
+            //await sendWhatsapp();
+            res.sendSuccess("sms Enviado");
+        } catch (error) {
+            req.logger.fatal({ message: error });
+            res.sendServerError(error);
+        }
     };
 
     //POST
