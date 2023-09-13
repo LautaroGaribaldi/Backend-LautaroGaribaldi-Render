@@ -1,4 +1,4 @@
-const { ProductModel } = require("./model/products.models");
+const { ProductModel, prueba } = require("./model/products.models");
 
 //productModel;
 

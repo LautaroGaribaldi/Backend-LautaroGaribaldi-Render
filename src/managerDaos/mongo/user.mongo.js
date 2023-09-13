@@ -2,7 +2,7 @@ const { UserModel, prueba } = require("./model/user.model");
 
 class UserDaoMongo {
     constructor() {
-        this.userModel = prueba;
+        this.userModel = UserModel;
     }
     getUsers = async () => {
         try {

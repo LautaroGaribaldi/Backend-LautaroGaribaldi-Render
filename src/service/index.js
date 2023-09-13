@@ -9,7 +9,7 @@ const CartRepository = require("../repositories/cart.repository");
 
 //const contactService = new ContactRepository(new ContactDao());
 const userService = new UserRepository(UserDao);
-const productService = new ProductRepository(new ProductDao());
+const productService = new ProductRepository(ProductDao);
 const cartService = new CartRepository(new CartDao());
 const messageService = new MessageRepository(new MessageDao());
 
