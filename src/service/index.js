@@ -10,8 +10,8 @@ const CartRepository = require("../repositories/cart.repository");
 //const contactService = new ContactRepository(new ContactDao());
 const userService = new UserRepository(UserDao);
 const productService = new ProductRepository(ProductDao);
-const cartService = new CartRepository(new CartDao());
-const messageService = new MessageRepository(new MessageDao());
+const cartService = new CartRepository(CartDao);
+const messageService = new MessageRepository(MessageDao);
 
 module.exports = {
     userService,

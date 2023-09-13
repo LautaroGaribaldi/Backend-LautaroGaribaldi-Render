@@ -17,8 +17,8 @@ switch (config.persistence) {
         UserDao = new UserDaoMongo();
         ProductDao = new ProductDaoMongo();
         ContactDao = ContactDaoMongo;
-        CartDao = CartDaoMongo;
-        MessageDao = MessagesDaoMongo;
+        CartDao = new CartDaoMongo();
+        MessageDao = new MessagesDaoMongo();
         break;
 
     case "FILE":
