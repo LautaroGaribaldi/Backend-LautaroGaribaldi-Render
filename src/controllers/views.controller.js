@@ -30,8 +30,7 @@ class viewsController {
             };
             res.render("home", object);
         } catch (error) {
-            console.log(error);
-            //req.logger.fatal({ message: error });
+            req.logger.fatal({ message: error });
             res.status(500).send({
                 status: "ERROR",
                 error: "Ha ocurrido un error al cargar la vistasss.",
