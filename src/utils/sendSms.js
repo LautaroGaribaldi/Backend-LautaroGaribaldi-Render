@@ -1,4 +1,4 @@
-require("dotenv").config();
+/*require("dotenv").config();
 const twilio = require("twilio");
 
 const cliente = twilio(process.env.TWILIO_SID, process.env.TWILIO_AUTH_TOKEN);
@@ -16,3 +16,4 @@ exports.sendWhatsapp = () =>
         from: `whatsapp:+14155238886`,
         to: `whatsapp:${process.env.MY_PHONE_NUMBER_WHATSAPP}`,
     });
+*/
