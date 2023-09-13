@@ -8,6 +8,9 @@
     "start": "node src/server.js --mode production",
     "test": "mocha test/superTest.test.js --timeout 10000"
   },
+  "engines":{
+    "node": "18"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
